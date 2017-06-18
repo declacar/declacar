@@ -1,4 +1,5 @@
 @extends('layouts.default')
+@section('title', 'Homepage')
 @section('content')
       <!--site header-->
       <header class="site-header homepage-classic-header">
