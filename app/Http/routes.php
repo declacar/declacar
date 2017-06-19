@@ -19,3 +19,12 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('pages.about');
 })->name('about');
+
+Route::get('person/{fio}', function ($fio) {
+    return 'Person '.$fio;
+});
+
+Route::get('vehicle/{vehicle}', function ($vehicle) {
+    return 'Vehicle '.$vehicle;
+});
+
